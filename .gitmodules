@@ -1,0 +1,3 @@
+[submodule "node/typescript-starter"]
+	path = node/typescript-starter
+	url = https://github.com/bitjson/typescript-starter.git
