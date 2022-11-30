@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="HTML5 Boilerplate">
+</head>
+
+<body>
+  <ul id="htmlLog"></ul>
+  <!-- your content here... -->
+  <script>
+    function htmlLog(text){
+      console.log('Logging: ', text);
+      const currentLog = document.getElementById('htmlLog').innerHTML;
+      document.getElementById('htmlLog').innerHTML += `<li>${text}</li>`;
+    }
+    htmlLog('Welcome to the HTML 5 template for coding with Javascript!');
+  </script>
+</body>
+</html>
