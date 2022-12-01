@@ -17,7 +17,7 @@
       console.log('Logging: ', text);
       if(typeof text === typeof {}){
         try {
-          document.getElementById('htmlLog').innterHTML += `<li>${JSON.stringify(text)}</li>`;
+          document.getElementById('htmlLog').innerHTML += `<li>${JSON.stringify(text)}</li>`;
           return;
         } catch (error) {
           console.error(error);
