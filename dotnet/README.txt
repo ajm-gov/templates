@@ -1,0 +1,1 @@
+Microsoft .NET (Visual Basic, C#, F#, etc) Templates should go here!
