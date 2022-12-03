@@ -106,3 +106,5 @@ dist
 # Dotnet Core binaries
 obj
 bin
+
+.vscode
