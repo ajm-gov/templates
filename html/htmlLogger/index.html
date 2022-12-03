@@ -11,6 +11,9 @@
 
 <body>
   <ul id="htmlLog"></ul>
+  <hr />
+  <textarea id="puzzleInput"></textarea><button onclick="doMain()">CLICK</button>
+
   <!-- your html content here... -->
   <script>
     function htmlLog(text){
@@ -27,11 +30,16 @@
       }
       document.getElementById('htmlLog').innerHTML += `<li>${text}</li>`;
     }
+    function getInput(){
+      return document.getElementById('puzzleInput').value;
+    }
     /*
     =========================================================Your JavaScript goes below here=========================================================
     */
-    htmlLog('Welcome to the HTML 5 template for coding with Javascript!');
-
+   htmlLog('Welcome to the HTML 5 template for coding with Javascript!');
+   function doMain(){
+      htmlLog(getInput())
+    }
     /*
     ==========================================================Your JavaScript goes above here==========================================================
     */
