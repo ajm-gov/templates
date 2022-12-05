@@ -1,6 +1,6 @@
-# Day 4 Rust solution
+# Rust Template
 
-Decided to try something completely brand new to me for the day 4 challenge. Going to be using [Rust](https://www.rust-lang.org/)
+Here's a quick [Rust](https://www.rust-lang.org/) template thrown together.
 
 ## Setup
 1. [Install Rust](https://www.rust-lang.org/tools/install) and then make sure it can run with `rustc --version` and `cargo --version`
