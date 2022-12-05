@@ -107,4 +107,7 @@ dist
 obj
 bin
 
+# Rust binaries
+target
+
 .vscode
